@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fatec Jaú</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        background: linear-gradient(135deg, #0d6efd, #6610f2);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      h1 {
+        color: white;
+        margin-bottom: 40px;
+        font-weight: 700;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      }
+
+      .card {
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 45px rgba(0,0,0,0.4);
+      }
+
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .card-body {
+        text-align: center;
+      }
+
+      .card-title {
+        font-weight: bold;
+        color: #0d6efd;
+      }
+
+      .btn-primary {
+        background: linear-gradient(45deg, #0d6efd, #6610f2);
+        border: none;
+        border-radius: 30px;
+        padding: 8px 20px;
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        transform: scale(1.05);
+        background: linear-gradient(45deg, #6610f2, #0d6efd);
+      }
+
+      footer {
+        margin-top: 40px;
+        color: white;
+        font-size: 14px;
+        opacity: 0.8;
+      }
+
+      @media (max-width: 576px) {
+        .card {
+          width: 90% !important;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Bem-vind(a,o,e)</h1>
+
+    <div class="card" style="width: 20rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XlmAXcpALKrexw5DLlySXm3kMuANR8LVew&s" class="card-img-top" alt="Fatec Jaú">
+      <div class="card-body">
+        <h5 class="card-title">Fatec Jaú</h5>
+        <p class="card-text">Imagem da faculdade</p>
+        <a href="#" class="btn btn-primary">Não clique</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 - Página demonstrativa com Bootstrap
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
