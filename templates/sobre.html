@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvimento de Aplicações com Flask</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #343a40, #007bff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background-color: #212529;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #17a2b8;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      color: #007bff;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      background-color: #e9f5ff;
+      padding: 15px;
+      border-left: 5px solid #007bff;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #212529;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1>Desenvolvimento de Aplicações com Flask</h1>
+    <p>Construindo aplicações web leves, rápidas e escaláveis com Python</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre o Flask</a>
+    <a href="#vantagens">Vantagens</a>
+    <a href="#estrutura">Estrutura</a>
+    <a href="#conclusao">Conclusão</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="sobre">
+      <h2>O que é Flask?</h2>
+      <p>
+        Flask é um microframework web escrito em Python que permite desenvolver aplicações web de forma simples e eficiente.
+        Ele é minimalista, mas extremamente poderoso, sendo amplamente utilizado para APIs, sistemas web e projetos escaláveis.
+      </p>
+
+      <div class="highlight">
+        Flask é ideal para quem deseja flexibilidade e controle total sobre a aplicação.
+      </div>
+    </section>
+
+    <section id="vantagens">
+      <h2>Principais Vantagens</h2>
+      <ul>
+        <li>Leve e simples de aprender</li>
+        <li>Alta flexibilidade</li>
+        <li>Grande comunidade e documentação</li>
+        <li>Integração fácil com bancos de dados</li>
+        <li>Ideal para APIs REST</li>
+      </ul>
+    </section>
+
+    <section id="estrutura">
+      <h2>Estrutura Básica de uma Aplicação Flask</h2>
+      <p>Uma aplicação Flask simples normalmente contém:</p>
+      <ul>
+        <li>Arquivo principal (app.py)</li>
+        <li>Templates HTML</li>
+        <li>Arquivos estáticos (CSS, JS, imagens)</li>
+        <li>Rotas definidas com decorators (@app.route)</li>
+      </ul>
+
+      <div class="highlight">
+        Exemplo de rota básica:
+        <br><br>
+        @app.route("/")<br>
+        def home():<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;return "Olá, Mundo!"
+      </div>
+    </section>
+
+    <section id="conclusao">
+      <h2>Conclusão</h2>
+      <p>
+        O Flask é uma excelente escolha para desenvolvedores que desejam criar aplicações web modernas com Python.
+        Sua simplicidade permite começar rapidamente, enquanto sua flexibilidade possibilita criar sistemas robustos e profissionais.
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 - Desenvolvimento Web com Flask
+  </footer>
+
+</body>
+</html>

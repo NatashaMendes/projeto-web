@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Gestão</title>
+
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>Sistema de Gestão</h1>
+    <p>Bem-vindo ao sistema desenvolvido com Flask.</p>
+
+    <nav>
+      <a href="/sobre">Sobre</a>
+      <a href="/cor/red">Página Vermelha</a>
+    </nav>
+
+    <footer>
+      © 2026 - Sistema de Gestão
+    </footer>
+  </div>
+
+ <script src="{{url_for('static', filename='js/script.js')  }}"></script>
+ <img src="{{ url_for('static', filename='imgs/logo.jpg') }}" ></script>
+
+</body>
+</html>
